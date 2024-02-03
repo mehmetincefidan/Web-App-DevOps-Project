@@ -60,3 +60,61 @@ To run the application, you simply need to run the `app.py` script in this repos
 ## License
 
 This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+
+
+Feature Documentation: Delivery Date Feature
+Table of Contents
+Introduction
+Feature Overview
+How It Works
+Backend Changes
+Frontend Integration
+Usage Guide
+For Developers
+For End-Users
+Reverting Changes
+Future Considerations
+Troubleshooting
+Version History
+Contributing
+Contact Information
+Introduction
+This documentation provides an overview and detailed information about the Delivery Date feature in the company's internal application. It is aimed at both developers and end-users, providing insights into the functionality and usage of the feature.
+
+Feature Overview
+The Delivery Date feature allows users to track and manage the expected delivery dates of items within the application. It was designed to enhance the overall user experience by providing accurate delivery information.
+
+How It Works
+Backend Changes
+The feature involves modifications to the backend Azure SQL Database, specifically the addition of the delivery_date column. This column is intended to store the expected delivery dates associated with each item.
+
+Frontend Integration
+The frontend of the application integrates with the backend changes to display the delivery date information to end-users. User interfaces have been updated to accommodate the new feature seamlessly.
+
+Usage Guide
+For Developers
+Developers can utilize the Delivery Date feature by accessing the delivery_date column in the backend database. Ensure that the necessary API endpoints and data models are updated to support the feature. For detailed information on implementation, refer to the code changes made in the commit history.
+
+For End-Users
+End-users can view and manage delivery dates within the application's user interface. Look for the "Delivery Date" section when interacting with items, and follow on-screen prompts to set or update delivery dates.
+
+Reverting Changes
+In case a decision is made to revert the feature, follow the documented steps in the Reverting Changes section. This will guide you through the process of undoing the modifications made to the codebase.
+
+Future Considerations
+While the feature has been reverted, there might be future considerations for its reintroduction. Developers are encouraged to review the feature's implementation and consider potential enhancements or modifications if it is reintroduced in subsequent releases.
+
+Troubleshooting
+Refer to the Troubleshooting section for common issues and solutions related to the Delivery Date feature.
+
+Version History
+Version 1.0.0 (Initial Release)
+Added: delivery_date column to the backend database.
+Integrated: Frontend changes to display and manage delivery dates.
+Contributing
+If you have suggestions, improvements, or bug reports, please contribute to the project by submitting issues or pull requests.
+
+Contact Information
+For further assistance or inquiries, please contact the development team at development-team@example.com.
+
+Feel free to tailor the content to fit the specifics of your feature and application. This template provides a structured approach to delivering comprehensive documentation.
